@@ -1,0 +1,7 @@
+<p style="color: green"><%= notice %></p>
+
+<h1> All restaurants</h1>
+
+<%= render 'restaurants/list', restaurants: @restaurants %>
+
+<%= link_to "New restaurant", new_restaurant_path %>
